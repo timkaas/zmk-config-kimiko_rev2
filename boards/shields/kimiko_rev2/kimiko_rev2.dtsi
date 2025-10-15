@@ -1,9 +1,21 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
+#include "kimiko_rev2-layouts.dtsi"
+
+// / {
+//     physical_layout0: physical_layout_0 { // First physical layout, use different naming for other layouts
+//         compatible = "zmk,physical-layout";
+//         display-name = "Default Layout";
+//         kscan = <&kscan0>; // Label of the kscan node, optional if all layouts use the same
+//         transform = <&default_transform>; // Label of the matrix transform for this layout
+//     };
+// };
+
 / {
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
+        zmk,physical-layout = &keycapsss_kimiko_layout;
     };
 
     default_transform: keymap_transform_0 {
