@@ -18,9 +18,9 @@
 #
 ---
 include:
-  - board: puchi_ble_v1
+  - board: nice_nano_v2
     shield: kimiko_rev2_left
-  - board: puchi_ble_v1
+  - board: nice_nano_v2
     shield: kimiko_rev2_right
-  - board: puchi_ble_v1
+  - board: nice_nano_v2
     shield: settings_reset
