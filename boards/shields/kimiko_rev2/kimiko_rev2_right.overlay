@@ -6,11 +6,15 @@
 
 &kscan0 {
     col-gpios
-        = <&gpio1 11 GPIO_ACTIVE_HIGH> // Col 5 from PCB
-        , <&gpio0 28 GPIO_ACTIVE_HIGH> // Col 4 from PCB
-        , <&gpio0  3 GPIO_ACTIVE_HIGH> // Col 3 from PCB
-        , <&gpio1 13 GPIO_ACTIVE_HIGH> // Col 2 from PCB
-        , <&gpio0  2 GPIO_ACTIVE_HIGH> // Col 1 from PCB
-        , <&gpio0 29 GPIO_ACTIVE_HIGH> // Col 0 from PCB
+        = <&pro_micro 10 GPIO_ACTIVE_HIGH> // Col 5 from PCB
+        , <&pro_micro 16 GPIO_ACTIVE_HIGH> // Col 4 from PCB
+        , <&pro_micro 14 GPIO_ACTIVE_HIGH> // Col 3 from PCB
+        , <&pro_micro 15 GPIO_ACTIVE_HIGH> // Col 2 from PCB
+        , <&pro_micro 18 GPIO_ACTIVE_HIGH> // Col 1 from PCB
+        , <&pro_micro 19 GPIO_ACTIVE_HIGH> // Col 0 from PCB
         ;
+};
+
+&right_encoder {
+    status = "okay";
 };

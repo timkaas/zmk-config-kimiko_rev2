@@ -3,9 +3,13 @@ id: kimiko_rev2
 name: Kimiko
 type: shield
 url: https://keycapsss.com/help/kimiko/buildguide_en#kimiko-build-guide
-requires: [puchi_ble_v1]
+requires: [pro_micro]
+exposes: [i2c_oled]
 features:
   - keys
+  - display
+  - encoder
+  - underglow
 siblings:
   - kimiko_rev2_left
   - kimiko_rev2_right
