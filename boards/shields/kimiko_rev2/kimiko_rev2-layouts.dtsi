@@ -6,19 +6,19 @@
         display-name = "Kimiko Rev2";
 
       keys  //                     w   h    x    y     rot    rx    ry
-        = <&key_physical_attrs 100 100 000 096 0 0 0>
-        , <&key_physical_attrs 100 100 100 096 0 0 0>
-        , <&key_physical_attrs 100 100 200 031 0 0 0>
+        = <&key_physical_attrs 100 100 0 96 0 0 0>
+        , <&key_physical_attrs 100 100 100 96 0 0 0>
+        , <&key_physical_attrs 100 100 200 31 0 0 0>
         , <&key_physical_attrs 100 100 300    0 0 0 0>
-        , <&key_physical_attrs 100 100 400 031 0 0 0>
-        , <&key_physical_attrs 100 100 500 046 0 0 0>
-        , <&key_physical_attrs 100 100 1200 045 0 0 0>
-        , <&key_physical_attrs 100 100 1300 031 0 0 0>
+        , <&key_physical_attrs 100 100 400 31 0 0 0>
+        , <&key_physical_attrs 100 100 500 46 0 0 0>
+        , <&key_physical_attrs 100 100 1200 45 0 0 0>
+        , <&key_physical_attrs 100 100 1300 31 0 0 0>
         , <&key_physical_attrs 100 100 1400    0 0 0 0>
-        , <&key_physical_attrs 100 100 1500 031 0 0 0>
-        , <&key_physical_attrs 100 100 1600 096 0 0 0>
-        , <&key_physical_attrs 100 100 1700 096 0 0 0>
-        , <&key_physical_attrs 100 100 000 196 0 0 0>
+        , <&key_physical_attrs 100 100 1500 31 0 0 0>
+        , <&key_physical_attrs 100 100 1600 96 0 0 0>
+        , <&key_physical_attrs 100 100 1700 96 0 0 0>
+        , <&key_physical_attrs 100 100 0 196 0 0 0>
         , <&key_physical_attrs 100 100 100 196 0 0 0>
         , <&key_physical_attrs 100 100 200 131 0 0 0>
         , <&key_physical_attrs 100 100 300    100 0 0 0>
@@ -30,7 +30,7 @@
         , <&key_physical_attrs 100 100 1500 131 0 0 0>
         , <&key_physical_attrs 100 100 1600 196 0 0 0>
         , <&key_physical_attrs 100 100 1700 196 0 0 0>
-        , <&key_physical_attrs 100 100 000 296 0 0 0>
+        , <&key_physical_attrs 100 100 0 296 0 0 0>
         , <&key_physical_attrs 100 100 100 296 0 0 0>
         , <&key_physical_attrs 100 100 200 231 0 0 0>
         , <&key_physical_attrs 100 100 300    200 0 0 0>
@@ -42,7 +42,7 @@
         , <&key_physical_attrs 100 100 1500 231 0 0 0>
         , <&key_physical_attrs 100 100 1600 296 0 0 0>
         , <&key_physical_attrs 100 100 1700 296 0 0 0>
-        , <&key_physical_attrs 100 100 000 396 0 0 0>
+        , <&key_physical_attrs 100 100 0 396 0 0 0>
         , <&key_physical_attrs 100 100 100    400 0 0 0>
         , <&key_physical_attrs 100 100 200 331 0 0 0>
         , <&key_physical_attrs 100 100 300    300 0 0 0>
@@ -68,4 +68,6 @@
         , <&key_physical_attrs 100 100 1250 475 0 0 0>
         , <&key_physical_attrs 100 100 1350  450 0 0 0>
         , <&key_physical_attrs 100 100 1450  400 0 0 0>
-      ]
+      ;
+    };
+};
