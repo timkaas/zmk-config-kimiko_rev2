@@ -11,6 +11,11 @@
 //     };
 // };
 
+&keycapsss_kimiko_layout {
+    transform = <&default_transform>;
+};
+
+
 / {
     chosen {
         zmk,kscan = &kscan0;
