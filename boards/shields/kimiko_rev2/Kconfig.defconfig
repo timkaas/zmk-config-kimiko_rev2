@@ -13,11 +13,11 @@ if SHIELD_KIMIKO_LEFT || SHIELD_KIMIKO_RIGHT
 config ZMK_SPLIT
     default y
 
-config ZMK_BLE_EXPERIMENTAL_CONN
-    default y
+#config ZMK_BLE_EXPERIMENTAL_CONN
+#    default y
 
-config ZMK_POINTING
-    default y
+#config ZMK_POINTING
+#    default y
 
 if ZMK_DISPLAY
 
@@ -50,6 +50,7 @@ if ZMK_RGB_UNDERGLOW
 
 config WS2812_STRIP
     default y
+    
 endif # ZMK_RGB_UNDERGLOW
 
 endif
