@@ -107,7 +107,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(5,5) RC(4,5) RC(4,8) RC(5,8) 
     };
 };
 
-nice_view_spi: &nice_view_spi {
+nice_view_spi: &spi0 {
     pinctrl-0 = <&nice_view_spi_default>;
     pinctrl-1 = <&nice_view_spi_sleep>;
     pinctrl-names = "default", "sleep";
