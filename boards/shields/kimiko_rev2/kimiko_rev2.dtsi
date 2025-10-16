@@ -11,6 +11,7 @@
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
         zmk,physical-layout = &keycapsss_kimiko_layout;
+        zephyr,display = &oled;
     };
 
     default_transform: keymap_transform_0 {

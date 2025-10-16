@@ -10,6 +10,7 @@ features:
   - display
   - encoder
   - underglow
+  - studio
 siblings:
   - kimiko_rev2_left
   - kimiko_rev2_right
