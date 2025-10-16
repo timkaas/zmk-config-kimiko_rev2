@@ -19,8 +19,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: kimiko_rev2_left nice_view
+    shield: kimiko_rev2_left nice_view_adapter nice_view
   - board: nice_nano_v2
-    shield: kimiko_rev2_right nice_view
+    shield: kimiko_rev2_right nice_view_adapter nice_view
   - board: nice_nano_v2
     shield: settings_reset
