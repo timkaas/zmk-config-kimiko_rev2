@@ -6,9 +6,9 @@
 #include <dt-bindings/zmk/rgb.h>
 
 
-&led_strip {
-	chain-length = <31>;
-};
+#&led_strip {
+#	chain-length = <31>;
+#};
 
 / {
     macros {
