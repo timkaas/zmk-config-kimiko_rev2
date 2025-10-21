@@ -13,25 +13,11 @@
 #define XXX &none
 #define ___ &trans
 
-#define COMBO(NAME, BINDINGS, KEYPOS) \
-  combo_##NAME { \
-    timeout-ms = <50>; \
-    bindings = <BINDINGS>; \
-    key-positions = <KEYPOS>; \
-    layers = <0>; \
-  };
-
 #include <behaviors.dtsi>
 #include <behaviors/num_word.dtsi>
 
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/rgb.h>
-
-
-&led_strip {
-	chain-length = <27>;
-};
 
 / {
 	behaviors {
@@ -62,6 +48,7 @@
 //				                                          ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯         ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯
 			>;
 		};
+
 		square_layer {
 			bindings = <
 //				╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮                                                                 ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
